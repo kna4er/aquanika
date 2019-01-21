@@ -1,9 +1,19 @@
+
+@media only screen and (max-width : 1200px) {
+.article__col{flex: 0 0 33.3333%}
+}
+@media only screen and (max-width : 991px) {
+.article__col{flex: 0 0 50%}
+}
 @media only screen and (max-width : 768px) {
 	.showcase-img{height: 180px;}
 	.main{padding-top: 100px;}
+	.article__col{flex: 0 0 100%}
 	.header{position: fixed;top: 0px; background: #fff; z-index: 111; padding: 15px 15px; width: 100%; left: 0px; right: 0px;}
 }
 .article-tabs{width: 100%; flex: 0 0 100%;}
 .arrow_top{position: fixed; z-index: 111; bottom: 20px ;right: 20px;}
 .top_a{height: 35px; width: 35px;     box-shadow: 0 3px 16px rgba(0, 0, 7, 0.4); border-radius: 3px; display: flex;align-items: center; justify-content: center; background: #fff; }
 .top_a img{max-width: 25px;}
+
+
