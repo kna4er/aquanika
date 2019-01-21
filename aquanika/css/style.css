@@ -1039,7 +1039,10 @@ ul {
       margin-bottom: 6px; }
   .products-img {
     height: 209px;
-    margin-bottom: 3px; }
+    margin-bottom: 3px; 
+display: flex;
+    align-items: flex-end;
+    justify-content: center;}
 
 @media (max-width: 1336px) {
   .products {
